@@ -1,0 +1,7 @@
+x = input("Enter the value of x: ")
+y = input("Enter the value of y: ")
+z = input("Enter the value of y: ")
+print(x<y)
+print(z==y)
+print(z<x)
+print((x<y) or (not(z==y)) and (z<x))
