@@ -1,9 +1,9 @@
-address="B-6, Lodhi road, Delhi"
-len(address)
-address[17:-1]
-address[-len(address): len(address)]
-address[:-12]+address[-12:]
-address.find('delhi')
-address.swapcase()
-address.split(',')
-address.isalpha()
+address = 'B-6, Lodhi road, Delhi'
+print(len(address)) #22
+print(address[17:-1])
+print(address[-len(address): len(address)])
+print(address[:-12] + address[-12:])
+print(address.find('delhi'))
+print(address.swapcase())
+print(address.split(','))
+print(address.isalpha())
